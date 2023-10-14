@@ -1,0 +1,75 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   background-color: #151515;
+ 
+
+}
+.titulo{
+    color: #fff;
+   
+    
+}
+
+.adim-container{
+ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 48px;
+  
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.textarea{
+    width: 30vw;
+    border-radius: 5px;
+    padding: 3px;
+}
+.botao{
+    width: 30vw;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #26ade4;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+.list{
+    text-align: center;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(18,18,18);
+    border-radius: 5px;
+    margin-bottom: 12px;
+    justify-content: center;
+    padding: 14px 8px;
+    margin-top: 10px;
+    height: 60px;
+}
+.list p{
+    color: #fff;   
+}
+.list button{
+    margin-right: 8px;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+}
+.btn-delete{
+    color: #ffcc23;
+    background-color: transparent;
+}
+@media screen and (max-width: 425px){
+    .textarea{
+        width: 60vw;
+    }
+    .botao{
+        width: 62vw;
+    }
+}
